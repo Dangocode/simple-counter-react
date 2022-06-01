@@ -18,13 +18,13 @@ function App() {
 
   return (
     <div class="container">
-      <div>
+      <div class="buttons">
         <button onClick={decrementCount}>-</button>
         <span>'{count} sheeps...'</span>
         <button onClick={incrementCount}>+</button>
       </div>
       <div>
-        <span>{warning}</span>
+        <span class="warning">{warning}</span>
       </div>
     </div>
   );

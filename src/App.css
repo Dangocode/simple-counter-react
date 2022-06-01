@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+body {
+  background-color: bisque;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -28,17 +31,22 @@
   color: #61dafb;
 }
 .container {
+  display: flex;
   justify-content: center;
+  flex-direction: column;
+  padding-top: 45vh;
 }
 div {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
 span {
   font-size: calc(10px + 2vmin);
+}
+.warning {
+  font-size: calc(10px + 1vmin);
 }
 
 button {
